@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: opx;
+	padding: opx;
+	box-sizing: border-box;
+}
+
+header{
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main{
+	width: 70%;
+	margin: auto;
+}
+
+h2{
+	text-align: center;
+}
+
+.prima {
+	margin: auto;
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 800px;
+
+}
+
+.seconda{
+	margin: auto;
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 800px;
+	
+}
+
+.posto {
+	margin: auto;
+	width:20%;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+}
+.prima .posto{
+	background-color: red;
+	color: white;
+}
+
+.seconda .posto{
+	background-color: green;
+	color: white;
+}
